@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    let birthDay = prompt("nhập vào ngày sinh của bạn.");
+    let begin = 0;
+    
+    if(birthDay % 2 == 0){
+        for(let i = 0; i <= birthDay; i += 2){
+            document.write(i + ' ');
+        }
+    }else{
+        for( let j = 1; j <= birthDay; j += 2){
+            document.write(j + ' ');
+        }
+    }
+</script>
